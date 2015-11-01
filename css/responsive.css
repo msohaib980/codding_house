@@ -1,0 +1,67 @@
+
+/**************************************
+		Two Column layout-About Page
+**************************************/
+
+
+@media screen and (min-width: 480px) {
+	
+	#primary {
+		width: 50%;
+		float: left;
+		
+		
+
+	}
+
+	#secondary {
+		width: 40%;
+		float: right;
+	}
+	
+}
+
+
+/**************************************
+		Page:Recipes;
+**************************************/
+
+#Gallery li {
+	width: 28.333%;
+
+}
+
+#Gallery li:nth-child(4n){
+	clear: left;
+}
+
+
+/**************************************
+		Page:Profile;
+**************************************/
+
+
+.profile-picture {
+	float: left;
+	margin: 0 5% 80px 0;	
+}
+
+
+
+
+
+@media screen and (min-width:660px) {
+	nav {
+		background:none;
+		float:left;
+		font-size: 1.125;
+		margin-right: 5%;
+		text-align: left;
+		width: 45%;
+
+	
+		}
+	
+
+}
+
