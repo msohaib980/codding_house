@@ -10,3 +10,6 @@ function getRandomNumber(lower,upper){
 console.log(getRandomNumber("w",20))
 
 
+prompt("what is your name")
+
+
